@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: 'poppins' , sans-serif ;
+   
+}
+
+ul{
+    float: right;
+    display: flex;
+}
+header{
+  
+    top: 0px;
+    left: 0%;
+    padding: 20px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.navbar{
+    display:flex;
+    position: relative;
+}
+.navbar li {
+    list-style: none;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 600  ;
+}
+.btn-com{
+    padding: 10px 20px;
+    background: blue;
+    color: aliceblue;
+    margin-top: -10px;
+}
+.btn-com:hover{
+    background: blue;
+    transition: ease-out;
+}
+header .navbar li a:hover{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+img{
+    margin-top: 30px;
+    height:100%;
+    width: 100%;
+    
+    
+    
+}
+.formulaire{
+   
+    padding:70px;
+    height: 500px;
+    position: absolute;
+    bottom: 1px;
+    width: 500px;
+    margin-left: 60px;
+   align-items: center;
+    display: flex;
+   
+    flex-direction: column;
+   
+    margin-top: -20px;
+}
+ 
+ .group{
+    margin: 20px;
+    width: 200px;
+
+}
+button{
+    background-color:white;
+}
+ .fin{
+    background-color: #ddd;
+    height: 400px;
+    width: 100%;
+    margin-top: 2px;
+    
+ }
+ h3,h1,p{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    
+ }
+ h2,h5{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+ }
+ .image{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   padding-left: 70px;
+   margin: 40px;
+
+    
+ }
+ .fin div img{
+    
+    height: 200px;
+    width: 250px;
+ }
+ h5{
+    text-transform: uppercase;
+ }
+
+
+
